@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "67412691-d9c0-43b2-934a-bdbfcd16d0ac",
+		"name": "Liking a post",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32218688"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OWQxMTg5YzhiYzcwZTk5ZDUyZjcyOCIsImlhdCI6MTcwNDc5MjY3OX0.Y6l4vO5g7WJwyrXQOyCrohETWyeZtC_Wj7vA_mUU5Vo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"authorId\":\"006\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/books/B001/like",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"books",
+						"B001",
+						"like"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

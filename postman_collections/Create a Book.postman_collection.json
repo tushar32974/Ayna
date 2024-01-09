@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "35a5854e-9ab3-4581-90e8-7b6bdae1d495",
+		"name": "Create a Book",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32218688"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OWQxMTg5YzhiYzcwZTk5ZDUyZjcyOCIsImlhdCI6MTcwNDc5MjY3OX0.Y6l4vO5g7WJwyrXQOyCrohETWyeZtC_Wj7vA_mUU5Vo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"B108\",\r\n    \"title\":\"Animal animal animal\",\r\n    \"authorId\":\"001\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/books/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"books",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

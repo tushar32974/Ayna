@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "2d9fe6a0-f24b-486e-b7e1-b191bedd784f",
+		"name": "Getting an author with :id with his list of books",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32218688"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OWQxMTg5YzhiYzcwZTk5ZDUyZjcyOCIsImlhdCI6MTcwNDc5MjY3OX0.Y6l4vO5g7WJwyrXQOyCrohETWyeZtC_Wj7vA_mUU5Vo",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3001/authors/001",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"authors",
+						"001"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
